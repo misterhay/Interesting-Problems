@@ -28,3 +28,8 @@ jobs:
       run: |
         echo Add other actions to build,
         echo test, and deploy your project.
+        
+    - name: Run a Python script
+      #with:
+      #  python-version: '3.x'
+      run: python log_files.py
